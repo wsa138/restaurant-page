@@ -52,6 +52,29 @@ function pageLoad() {
         724 Cambridge Place, Faketown, PA`
     footer.appendChild(contactText);
 
+    // Nav bar
+    const navTabs = document.createElement("nav");
+    navTabs.id = "navTabs";
+    header.appendChild(navTabs);
+
+    // Navbar tabs
+    const homeTab = document.createElement("a");
+    homeTab.id = "homeTab";
+    homeTab.innerHTML = "Home";
+    homeTab.type = "radio"
+    navTabs.appendChild(homeTab);
+
+    const menuTab = document.createElement("a");
+    menuTab.id = "menuTab";
+    menuTab.innerHTML = "Menu";
+    navTabs.appendChild(menuTab);
+
+    const aboutTab = document.createElement("a");
+    aboutTab.id = "aboutTab";
+    aboutTab.innerHTML = "About";
+    navTabs.appendChild(aboutTab);
+
+    
 }
 
 export { pageLoad }
