@@ -15,7 +15,9 @@
 
 #pageHeader {
     background-color: grey;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #infoSection {
@@ -32,3 +34,6 @@
     align-content: space-around;
 }
 
+#navTabs {
+    length: 5em;
+}
