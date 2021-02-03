@@ -1,7 +1,29 @@
-/*body {
-    background-image: url("./images/breakfast.jpg");
-    background-size: auto;
-    background-position: center top;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
+/*
+#content {
+    background-image: url("./images/breakfast.jpg");
+    background-repeat:no-repeat;
+    background-size:100vw;
+    background-position: center;
+    height: 100vh;
+}
 */
+
+#pageHeader {
+    background-color: grey;
+    height: 10em;
+}
+
+#infoSection {
+    background-color: rgb(87, 65, 65);
+    height: 30em;
+}
+
+#pageFooter {
+    background-color: rgb(192, 167, 167);
+    height: 5em;
+}
