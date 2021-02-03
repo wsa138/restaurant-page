@@ -1,4 +1,4 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -15,7 +15,7 @@ html, body {
 
 #pageHeader {
     background-color: grey;
-    height: 10em;
+    
 }
 
 #infoSection {
@@ -26,5 +26,9 @@ html, body {
 #pageFooter {
     background-color: rgb(192, 167, 167);
     height: 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
