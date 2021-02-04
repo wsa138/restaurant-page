@@ -49,7 +49,7 @@ function pageLoad() {
 
     // Nav bar
     makeElement("navTabs", "nav", pageHeader);
-    let navBar = document.getElementById("navTabs");
+    const navBar = document.getElementById("navTabs");
 
     // Nav bar buttons list
     const navList = document.createElement("ul");
@@ -58,16 +58,18 @@ function pageLoad() {
     
     // Home button
     makeElementText("homeButton", "li", navList, "<a>Home</a>");
-    document.getElementById("homeButton").className = "navBtn";
+    const homeButton = document.getElementById("homeButton");
+    homeButton.className = "navBtn";
 
     // Menu button
     makeElementText("menuButton", "li", navList, "<a>Menu</a>");
-    document.getElementById("menuButton").className = "navBtn";
+    const menuButton = document.getElementById("menuButton");
+    menuButton.className = "navBtn";
 
     // About button
     makeElementText("aboutButton", "li", navList, "<a>About</a>");
-    document.getElementById("aboutButton").className = "navBtn";
-
+    const aboutButton = document.getElementById("aboutButton");
+    aboutButton.className = "navBtn";
 }
 
 
