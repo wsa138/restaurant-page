@@ -58,32 +58,16 @@ function pageLoad() {
     
     // Home button
     makeElementText("homeButton", "li", navList, "<a>Home</a>");
+    document.getElementById("homeButton").className = "navBtn";
 
     // Menu button
     makeElementText("menuButton", "li", navList, "<a>Menu</a>");
+    document.getElementById("menuButton").className = "navBtn";
 
     // About button
     makeElementText("aboutButton", "li", navList, "<a>About</a>");
-    
-    /*
-    // Navbar tabs
-    const homeTab = document.createElement("a");
-    homeTab.id = "homeTab";
-    homeTab.innerHTML = "Home";
-    homeTab.type = "radio"
-    navTabs.appendChild(homeTab);
+    document.getElementById("aboutButton").className = "navBtn";
 
-    const menuTab = document.createElement("a");
-    menuTab.id = "menuTab";
-    menuTab.innerHTML = "Menu";
-    navTabs.appendChild(menuTab);
-
-    const aboutTab = document.createElement("a");
-    aboutTab.id = "aboutTab";
-    aboutTab.innerHTML = "About";
-    navTabs.appendChild(aboutTab);
-    */
-    
 }
 
 
