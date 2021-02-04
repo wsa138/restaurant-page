@@ -34,6 +34,9 @@
     align-content: space-around;
 }
 
-#navTabs {
-    length: 5em;
+#navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30vw;
 }
