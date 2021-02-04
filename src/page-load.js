@@ -57,8 +57,13 @@ function pageLoad() {
     navBar.appendChild(navList);
     
     // Home button
-    makeElementText("homeButton", "li", navList, 
-        `<a href="">Home</a>`)
+    makeElementText("homeButton", "li", navList, "<a>Home</a>");
+
+    // Menu button
+    makeElementText("menuButton", "li", navList, "<a>Menu</a>");
+
+    // About button
+    makeElementText("aboutButton", "li", navList, "<a>About</a>");
     
     /*
     // Navbar tabs
