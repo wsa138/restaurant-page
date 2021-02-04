@@ -18,26 +18,28 @@
 }
 
 #pageHeader {
-    background-color: grey;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: 5rem;
+    color: white;
 }
 
 #infoSection {
-    background-color: rgb(87, 65, 65);
+    background-color: rgb(66, 61, 61);
     height: 40rem;
 }
 
 #pageFooter {
-    background-color: rgb(192, 167, 167);
+    background-color: black;
     height: 7rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-around;
     height: 9rem;
+    color: white;
 }
 
 #navList {
