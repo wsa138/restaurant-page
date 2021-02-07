@@ -1,0 +1,1 @@
+Creates a webpage for a restaurant. In this project, all HTML elements are created dynamically with Javascript. Javascript modules are used to create the information and functionality of the webpage. Webpack is utilized to package the source files and create the distribution files. 
