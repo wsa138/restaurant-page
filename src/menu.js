@@ -7,6 +7,17 @@ function menu() {
     menuInfo.id = "menuInfo";
     menuInfo.innerHTML = "This is the menu";
     infoContainer.appendChild(menuInfo);
+
+    // Function creates titles for menu sections
+
+    
+
+    // Function creates a menu item.
+
+
+
+
+
 }
 
 export { menu }
