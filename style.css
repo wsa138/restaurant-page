@@ -29,6 +29,9 @@
 #infoSection {
     background-color: rgb(66, 61, 61);
     height: 40rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #pageFooter {
@@ -73,6 +76,11 @@
 #contactTitle {
     padding-top: 1rem;
     height: 2rem;
+}
+
+.menuSection {
+    color: red;
+    font-size: 1.2rem;
 }
 
 .foodItem {
