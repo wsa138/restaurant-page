@@ -70,19 +70,43 @@ function menu() {
 
     // Entrees section items.
     createMenuItem("foodItem", entreesSection, 
-        `-- Ceasar Salad -- $11</br>
-        <em>Romaine tossed with Ceasar dressing</br>
-        topped with parmesean and herbed croutons.</em>`)
+        `-- Beef Bolognese -- $16</br>
+        <em>Pepperdelle, ground sirloin, parmesean</br>
+        side of bread.</em>`)
 
     createMenuItem("foodItem", entreesSection, 
-        `-- Ceasar Salad -- $11</br>
-        <em>Romaine tossed with Ceasar dressing</br>
-        topped with parmesean and herbed croutons.</em>`)
+        `-- NY Strip -- $26</br>
+        <em>Prime cut beef, crispy onions</br>
+        choice of two sides.</em>`)
 
     createMenuItem("foodItem", entreesSection, 
-        `-- Ceasar Salad -- $11</br>
-        <em>Romaine tossed with Ceasar dressing</br>
-        topped with parmesean and herbed croutons.</em>`)
+        `-- Penne Alla Vodka -- $15</br>
+        <em>Chicken +3 / Shrimp +5.</em>`)
+
+    // Sides section.
+    createMenuHeader("sides", "menuSection", infoContainer, "Sides");
+    let sidesSection = document.getElementById("sides");
+
+    // Sides section item.
+    createMenuItem("foodItem", sidesSection,
+        `-- Sauteed Spinach --`)
+
+    createMenuItem("foodItem", sidesSection,
+        `-- Mashed Potatoes --`)
+
+    createMenuItem("foodItem", sidesSection,
+        `-- Steamed Broccoli --`)
+        
+    createMenuItem("foodItem", sidesSection,
+        `-- Coleslaw --`)
+
+    createMenuItem("foodItem", sidesSection,
+        `-- Brussel Sprouts --`)
+
+    createMenuItem("foodItem", sidesSection,
+        `-- Rice --`)
+
+
 
 
 }
