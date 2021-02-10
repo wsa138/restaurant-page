@@ -2,11 +2,11 @@ function home() {
     // The parent container.
     const infoContainer = document.getElementById("infoSection")
 
-    // A div element to contain all menu information.
-    const homeInfo = document.createElement("div");
-    homeInfo.id = "homeInfo";
-    homeInfo.innerHTML = "Home";
-    infoContainer.appendChild(homeInfo);
+    // Home page mission statement
+    let missionStatement = document.createElement("h4")
+    missionStatement.id = "missionStatement";
+    infoContainer.appendChild(missionStatement);
+    missionStatement.innerHTML = `Great Food, Great Drinks, Best Experience`
 }
 
 export { home }
