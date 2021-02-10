@@ -27,28 +27,63 @@ function menu() {
         newItem.style.fontWeight = 300;
     }
     
-    // Menu tab section "Starters".
+    // Starters section.
     createMenuHeader("starters", "menuSection", infoContainer, "Starters");
     let startersSection = document.getElementById("starters");
 
     // Starters section items.
     createMenuItem("foodItem", startersSection, 
-    `-- Chicken Tenders -- $13</br>
-    <em>Spiced to perfection</br>
-    served with siracha slaw</em>.`
+        `-- Chicken Tenders -- $13</br>
+        <em>Spiced to perfection</br>
+        served with siracha slaw.</em>`
     );
 
     createMenuItem("foodItem", startersSection, 
-    `-- Nachos -- $13</br>
-    <em>Spiced to perfection</br>
-    served with siracha slaw</em>.`
+        `-- Nachos -- $11/15</br>
+        <em>Add chicken, pork or chili.</em>`
     );
 
     createMenuItem("foodItem", startersSection, 
-    `-- Chicken Tenders -- $13</br>
-    <em>Spiced to perfection</br>
-    served with siracha slaw</em>.`
+        `-- Wings -- $9</br>
+        <em>Buffalo, garlic parm, mango habanero</br>
+        siracha agave, BBQ, Nashville.</em>`
     );
+
+    // Salads section.
+    createMenuHeader("salads", "menuSection", infoContainer, "Salads");
+    let saladsSection = document.getElementById("salads")
+
+    // Salads section items.
+    createMenuItem("foodItem", saladsSection, 
+        `-- Ceasar Salad -- $11</br>
+        <em>Romaine tossed with Ceasar dressing</br>
+        topped with parmesean and herbed croutons.</em>`)
+
+    createMenuItem("foodItem", saladsSection, 
+        `-- Cobb Salad -- $15</br>
+        <em>Romaine, diced tomato, crumbled blue cheese</br>
+        bacon bits, chopped egg, avacado, grilled chicken.</em>`)
+
+    // Entrees section.
+    createMenuHeader("entrees", "menuSection", infoContainer, "Entrees")
+    let entreesSection = document.getElementById("entrees");
+
+    // Entrees section items.
+    createMenuItem("foodItem", entreesSection, 
+        `-- Ceasar Salad -- $11</br>
+        <em>Romaine tossed with Ceasar dressing</br>
+        topped with parmesean and herbed croutons.</em>`)
+
+    createMenuItem("foodItem", entreesSection, 
+        `-- Ceasar Salad -- $11</br>
+        <em>Romaine tossed with Ceasar dressing</br>
+        topped with parmesean and herbed croutons.</em>`)
+
+    createMenuItem("foodItem", entreesSection, 
+        `-- Ceasar Salad -- $11</br>
+        <em>Romaine tossed with Ceasar dressing</br>
+        topped with parmesean and herbed croutons.</em>`)
+
 
 }
 
