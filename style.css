@@ -28,10 +28,12 @@
 
 #infoSection {
     background-color: rgb(66, 61, 61);
+    background: blue;
     height: 40rem;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    align-items: center;
 }
 
 #pageFooter {
@@ -81,8 +83,10 @@
 .menuSection {
     color: red;
     font-size: 1.2rem;
+    padding: 1rem;
 }
 
 .foodItem {
     color: rgb(233, 233, 233);
+    padding: .5rem;
 }
