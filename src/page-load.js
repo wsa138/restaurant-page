@@ -60,6 +60,7 @@ function pageLoad() {
     makeElementText("homeButton", "li", navList, "<a>Home</a>");
     const homeButton = document.getElementById("homeButton");
     homeButton.className = "navBtn";
+    homeButton.style.textDecoration = "underline";
 
     // Menu button
     makeElementText("menuButton", "li", navList, "<a>Menu</a>");
@@ -72,6 +73,13 @@ function pageLoad() {
     aboutButton.className = "navBtn";
 }
 
+// Function to highlight button depending on which page is viewed.
+function highlightSelected(selected, non1, non2) {
+    selected.style.textDecoration = "underline";
+    non1.style.textDecoration = "none";
+    non2.style.textDecoration = "none";
+}
 
 
-export { pageLoad }
+
+export { pageLoad, highlightSelected }

@@ -1,17 +1,11 @@
 
-import { pageLoad } from './page-load'
+import { pageLoad, highlightSelected } from './page-load'
 import { menu } from './menu'
 import { home } from './home'
 import { about } from './about'
 
 pageLoad();
 home();
-
-function highlightSelected(selected, non1, non2) {
-    selected.style.textDecoration = "underline";
-    non1.style.textDecoration = "none";
-    non2.style.textDecoration = "none";
-}
 
 let homeBtn = document.getElementById("homeButton");
 let menuBtn = document.getElementById("menuButton");

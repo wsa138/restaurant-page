@@ -1,3 +1,4 @@
+
 function menu() {
     // The parent container.
     const infoContainer = document.getElementById("infoSection")
