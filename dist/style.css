@@ -3,15 +3,13 @@
     padding: 0;
 }
 
-/*
-#content {
+
+#infoSection {
     background-image: url("./images/breakfast.jpg");
-    background-repeat:no-repeat;
-    background-size:100vw;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
 }
-*/
+
 
 #content {
     height: 100%;
@@ -28,7 +26,6 @@
 
 #infoSection {
     background-color: rgb(66, 61, 61);
-    background: blue;
     height: 40rem;
     display: flex;
     flex-direction: column;
