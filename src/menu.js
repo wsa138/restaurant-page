@@ -17,9 +17,17 @@ function menu() {
         parent.appendChild(newEle);
         newEle.innerHTML = text;
     }
+
+    // Function creates item name.
+    function createItemName(className, text) {
+        let newName = document.createElement("h5");
+        newName.className = className;
+        infoContainer.appendChild(newName);
+        newName.innerHTML = text;
+    }
     
 
-    // Function creates a menu item.
+    // Function creates an item description.
     function createMenuItem(className, parent, text) {
         let newItem = document.createElement("p");
         newItem.className = className;
@@ -33,20 +41,23 @@ function menu() {
     let startersSection = document.getElementById("starters");
 
     // Starters section items.
+    createItemName("itemName", "-- Chicken Tenders -- $13");
+
     createMenuItem("foodItem", infoContainer, 
-        `-- Chicken Tenders -- $13</br>
-        <em>Spiced to perfection</br>
+        `<em>Spiced to perfection</br>
         served with siracha slaw.</em>`
     );
 
-    createMenuItem("foodItem", infoContainer, 
-        `-- Nachos -- $11/15</br>
-        <em>Add chicken, pork or chili.</em>`
-    );
+    createItemName("itemName", "-- Nachos -- $11/15");
 
     createMenuItem("foodItem", infoContainer, 
-        `-- Wings -- $9</br>
-        <em>Buffalo, garlic parm, mango habanero</br>
+        `<em>Add chicken, pork or chili.</em>`
+    );
+
+    createItemName("itemName", "-- Wings -- $9");
+
+    createMenuItem("foodItem", infoContainer, 
+        `<em>Buffalo, garlic parm, mango habanero</br>
         siracha agave, BBQ, Nashville.</em>`
     );
 
@@ -55,14 +66,17 @@ function menu() {
     let saladsSection = document.getElementById("salads")
 
     // Salads section items.
+
+    createItemName("itemName", "-- Ceasar Salad -- $11");
+    
     createMenuItem("foodItem", infoContainer, 
-        `-- Ceasar Salad -- $11</br>
-        <em>Romaine tossed with Ceasar dressing</br>
+        `<em>Romaine tossed with Ceasar dressing</br>
         topped with parmesean and herbed croutons.</em>`)
 
+    createItemName("itemName", "-- Cobb Salad -- $15");
+
     createMenuItem("foodItem", infoContainer, 
-        `-- Cobb Salad -- $15</br>
-        <em>Romaine, diced tomato, crumbled blue cheese</br>
+        `<em>Romaine, diced tomato, crumbled blue cheese</br>
         bacon bits, chopped egg, avacado, grilled chicken.</em>`)
 
     // Entrees section.
@@ -70,19 +84,22 @@ function menu() {
     let entreesSection = document.getElementById("entrees");
 
     // Entrees section items.
+    createItemName("itemName", "-- Beef Bolognese -- $16");
+
     createMenuItem("foodItem", infoContainer, 
-        `-- Beef Bolognese -- $16</br>
-        <em>Pepperdelle, ground sirloin, parmesean</br>
+        `<em>Pepperdelle, ground sirloin, parmesean</br>
         side of bread.</em>`)
 
-    createMenuItem("foodItem", infoContainer, 
-        `-- NY Strip -- $26</br>
-        <em>Prime cut beef, crispy onions</br>
-        choice of two sides.</em>`)
+    createItemName("itemName", "-- NY Strip -- $26");
 
     createMenuItem("foodItem", infoContainer, 
-        `-- Penne Alla Vodka -- $15</br>
-        <em>Chicken +3 / Shrimp +5.</em>`)
+        `<em>Prime cut beef, crispy onions</br>
+        choice of two sides.</em>`)
+
+    createItemName("itemName", "-- Penne Alla Vodka -- $15");
+
+    createMenuItem("foodItem", infoContainer, 
+        `<em>Chicken +3 / Shrimp +5.</em>`)
 
     // Sides section.
     createMenuHeader("sides", "menuSection", infoContainer, "Sides");

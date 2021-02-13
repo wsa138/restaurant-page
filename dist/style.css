@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-
+/*
 #infoSection {
     background-image: url("./images/breakfast.jpg");
     background-position: center;
     height: 90vh;
 }
+*/
 
 
 #content {
@@ -30,8 +31,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: hidden;
-    height: 1%;
+    overflow: auto;
+    height: calc(100vh - 14rem);
 }
 
 #pageFooter {
@@ -92,8 +93,18 @@
 .foodItem {
     color: rgb(233, 233, 233);
     padding: .5rem;
+    text-align: center; 
 }
 
 #missionStatement {
-    height: calc(100vh - 14rem)
+    font-size: 2rem;
+    margin: auto;
+}
+
+#aboutContainer {
+    color: red;
+}
+
+#aboutInfo {
+    color: blue
 }
