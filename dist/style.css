@@ -103,8 +103,13 @@
 
 #aboutContainer {
     color: red;
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
 }
 
 #aboutInfo {
-    color: blue
+    color: blue;
+    font-size: 1.5rem;
+    width: 45rem;
 }

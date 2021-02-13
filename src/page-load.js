@@ -27,7 +27,7 @@ function pageLoad() {
     let pageFooter = document.getElementById("pageFooter");
 
     // Restaurant name element for header.
-    makeElementText("name", "h1", pageHeader, "My Restaurant");
+    makeElementText("name", "h1", pageHeader, "The Last Stop");
 
     // Hours title element for footer
     makeElementText("hoursTitle", "h3", pageFooter, "Hours");
@@ -44,8 +44,8 @@ function pageLoad() {
     // Contact text
     makeElementText("contactText", "p", pageFooter,
         `914-555-5555</br>
-        inro@myrestaurant.com</br>
-        724 Cambridge Place, Faketown, PA`)
+        info@thelaststop.com</br>
+        724 Cambridge Place, Derry, PA`)
 
     // Nav bar
     makeElement("navTabs", "nav", pageHeader);
