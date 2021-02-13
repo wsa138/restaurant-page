@@ -3,6 +3,9 @@ function menu() {
     // The parent container.
     const infoContainer = document.getElementById("infoSection")
 
+    // The info section.
+    const infoSection = document.getElementById("infoSection");
+
     // A div element to contain all menu information.
     const menuInfo = document.createElement("h4");
     menuInfo.id = "menuInfo";
