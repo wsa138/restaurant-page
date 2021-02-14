@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 #infoSection {
     background-image: url("./images/r3.jpg");
     background-position: bottom center;
@@ -23,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height: 5rem;
-    color: gold;
+    color: rgb(248, 151, 6);
     padding-bottom: .5rem;
 }
 
@@ -34,7 +35,7 @@
     align-items: center;
     overflow: auto;
     height: calc(100vh - 14rem);
-    color: rgb(252, 218, 30);;
+    color: rgb(248, 151, 6);
     text-shadow:black 2px 2px;
 }
 
@@ -46,7 +47,8 @@
     flex-wrap: wrap;
     align-content: space-around;
     height: 9rem;
-    color: gold;
+    color: rgb(248, 151, 6);
+    text-align: center;
 }
 
 #navList {
@@ -107,7 +109,7 @@
 #missionStatement {
     font-size: 2.25rem;
     margin: auto;
-    color: rgb(252, 218, 30);;
+    color: rgb(248, 151, 6);
     text-shadow:black 2px 2px;
     text-align: center;
 }
@@ -116,14 +118,15 @@
     font-size: 3.25rem;
     margin-top: 5rem;
     margin-bottom: 2.5rem;
-    color: rgb(252, 218, 30);;
+    color: rgb(248, 151, 6);
     text-shadow:black 2px 2px;
 }
 
 #aboutInfo {
     font-size: 1.5rem;
+    text-align: center;
     width: 45rem;
-    color: rgb(252, 218, 30);;
+    color: rgb(248, 151, 6);
     text-shadow:black 2px 2px;
 }
 
@@ -135,6 +138,7 @@
         height: 5rem;
         padding: 1rem 1rem 1rem 1rem;
     }
+
     #navList {
         height: 100%;
         display: flex;
@@ -166,10 +170,15 @@
 
     #pageFooter {
         background-color: black;
-        height: 7rem;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-content: space-around;
+        align-items: center;
+    }
+
+    #aboutInfo {
+        width: 100%;
     }
 }
