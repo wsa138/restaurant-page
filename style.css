@@ -190,4 +190,12 @@ html {
     .itemName {
        font-size: 1.6rem;
     }
+
+    #name {
+        font-size: 2.5rem;
+    }
+    
+    .navBtn {
+
+    }
 }
