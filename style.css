@@ -174,7 +174,6 @@ html {
     }
 
     #pageFooter {
-        background-color: black;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -188,7 +187,7 @@ html {
         width: 100%;
     }
 
-        .itemName {
-            font-size: 1.6rem;
-        }
+    .itemName {
+       font-size: 1.6rem;
+    }
 }
