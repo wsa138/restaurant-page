@@ -23,7 +23,7 @@ html {
 }
 
 #pageHeader {
-    background-color: black;
+    background-color: rgb(15, 11, 32);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -33,7 +33,7 @@ html {
 }
 
 #infoSection {
-    background-color: rgb(66, 61, 61);
+    background-color: rgb(15, 11, 32);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@ html {
 }
 
 #pageFooter {
-    background-color: black;
+    background-color: rgb(15, 11, 32);
     height: 7rem;
     display: flex;
     flex-direction: column;
