@@ -199,3 +199,9 @@ html {
 
     }
 }
+
+@media (max-height: 400px) {
+    #infoSection {
+        min-height: 300px;
+    }
+}
